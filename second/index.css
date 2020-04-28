@@ -1,0 +1,77 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  padding: 20px;
+}
+
+.top {
+  width: 100%;
+  border: solid black 5px;
+  padding: 10px;
+  }
+
+.rectangle1 {
+  width: 50px;
+  height: 150px;
+  background-color: blueviolet;
+  display: inline-block;
+}
+
+.rectangle2 {
+  width: 350px;
+  height: 200px;
+  background-color: green;
+  display: inline-block;
+  margin: 0 50px;
+}
+
+.circ {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: skyblue;
+}
+
+.middle {
+  width: 100%;
+  height: 300px;
+  border: black dotted 5px;
+  margin-top: 20px;
+  padding: 25px;
+}
+
+.rectangle3 {
+  margin-top: 20px;
+  width: 100%;
+  height: 175px;
+  background-color: lemonchiffon;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+/* I totally copied because I do not know how to make a box-shadow. */
+
+.bottom {
+  width: 50%;
+  border: 2px solid gray;
+  text-align: center;
+  background-color: white;
+  padding: 100px;
+  margin-top: 20px;
+ margin-left: 25%;
+ -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.25);
+  -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.25);
+  box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.25);
+}
+
+.bottom p1 {
+  width: 100%;
+  text-align: centers;
+  color: blues;
+  letter-spacing: 10px;
+  font-size: xx-large;
+}

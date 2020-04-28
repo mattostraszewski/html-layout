@@ -1,0 +1,26 @@
+header {
+  width: 100%;
+  height: 20vh;
+  background-color: #444444;
+}
+
+body {
+  text-align: center;
+  background-color: #EFEFEF;
+  margin: 0 auto;
+}
+
+.center {
+  background-color: white;
+  width: 75%;
+  height: 70vh;
+  display: inline-block;
+}
+
+.footer {
+  background-color: #222222;
+  width: 75%;
+  height: 10vh;
+  margin: 0 auto;
+}
+
