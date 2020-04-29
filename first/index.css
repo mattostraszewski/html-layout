@@ -5,16 +5,17 @@ header {
 }
 
 body {
-  text-align: center;
   background-color: #EFEFEF;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .center {
   background-color: white;
   width: 75%;
   height: 70vh;
-  display: inline-block;
 }
 
 .footer {
@@ -22,6 +23,5 @@ body {
   width: 75%;
   height: 10vh;
   margin: 0;
-  display: inline-block;
 }
 
