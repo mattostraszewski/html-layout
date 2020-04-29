@@ -7,7 +7,7 @@ header {
 body {
   text-align: center;
   background-color: #EFEFEF;
-  margin: 0 auto;
+  margin: 0;
 }
 
 .center {
@@ -21,6 +21,7 @@ body {
   background-color: #222222;
   width: 75%;
   height: 10vh;
-  margin: 0 auto;
+  margin: 0;
+  display: inline-block;
 }
 
