@@ -5,19 +5,23 @@
   margin: 0%;
 }
 
+body {
+  height: 100vh;
+}
+
 header {
   width: 100%;
-  height: 150px;
+  height: 15%;
   background-color: gray;
   display: flex;
   align-items: center;  
 }
 
 .square1 {
-  height: 135px;
-  width: 135px;
+  height: 90%;
+  width: 9%;
   background-color: blue;
-  margin: 10px;
+  margin: 9px;
 }
 
 .text-square {
@@ -26,7 +30,7 @@ header {
   align-items: center;
   background-color: white;
   width: 100%;
-  height: 375px;
+  height: 35%;
 }
 
 p {
@@ -35,26 +39,23 @@ p {
   padding: 40px;
 }
 
-.rectangle1 {
+.blue {
 background-color: blue;
-height: 175px;
-width: 100%;
 }
 
-.rectangle2 {
+.green {
   background-color:green;
-  height: 175px;
-  width: 100%;
   }
 
-.rectangle3 {
+.greenyellow {
   background-color: greenyellow;
-  height: 175px;
-  width: 100%;
  }
 
-.rectangle4 {
+.yellow {
   background-color:yellow;
-  height: 175px;
-  width: 100%;
+  }
+
+  .rectangle {
+    height: 12.5%;
+    width: 100%;
   }
